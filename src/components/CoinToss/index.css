@@ -1,0 +1,86 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.toss-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  padding: 30px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #a35200;
+  font-size: 27px;
+  margin-top: 20px;
+}
+.toss-names {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #334155;
+}
+.toss-image {
+  height: 130px;
+  margin-top: 20px;
+}
+.button {
+  background-color: #f9d423;
+  height: 30px;
+  width: 90px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: #a35200;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.count {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .toss-container {
+    width: 40%;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .toss-names {
+    font-size: 27px;
+  }
+  .toss-image {
+    height: 200px;
+  }
+  .count-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .count {
+    margin: 30px;
+  }
+}
